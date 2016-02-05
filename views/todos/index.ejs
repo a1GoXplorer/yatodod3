@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  </head>
+  <body>
+        <h3>Todos</h3>
+    <% todosList.forEach(function(todo) { %>
+      <div>
+        <%= todo.todo.toUpperCase() %>
+      </div>
+    <% })%>
+  </body>
+</html>
